@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "bonk",
+	"version": "${version}",
+	"name": "BONK",
+	"description": "Bonk a villager with a shovel (or press C) to reset their trades. Costs tool durability.",
+	"authors": ["Oli", "Alve Svarén"],
+	"contributors": ["Modified edition: durability cost + reroll key"],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/villager-bonk",
+		"sources": "https://github.com/olillin/bonk"
+	},
+	"license": "MIT",
+	"icon": "assets/bonk/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["dev.svaren.bonk.Bonk"],
+		"client": ["dev.svaren.bonk.client.BonkClient"]
+	},
+	"mixins": ["bonk.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

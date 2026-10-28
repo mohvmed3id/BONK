@@ -1,0 +1,7 @@
+{
+	"key.category.bonk.bonk": "BONK",
+	"key.bonk.reroll": "Reroll villager trades",
+	"bonk.message.need_tool": "Hold a shovel or a mace to reroll trades",
+	"bonk.message.look_at_villager": "Look at a villager first",
+	"bonk.message.server_missing": "BONK is not installed on this server"
+}
